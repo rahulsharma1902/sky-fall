@@ -1,0 +1,36 @@
+.letterContainer {
+  border: 1px solid var(--bgAccent);
+  background-color: var(--bgSurface02);
+  padding: 10px;
+}
+
+.letterContainer:hover {
+  border: 1px solid var(--bgAccent);
+  background-color: var(--bgSurface03);
+}
+
+.customInput {
+  background-color: transparent;
+  color: var(--txtSecondary);
+  width: 100%;
+  border: 0px;
+  padding: 10px 15px;
+  border: 0px;
+}
+.customInput:focus {
+  outline: none; /* Remove focus outline */
+  border: none; /* No border changes */
+  box-shadow: none; /* Remove any default shadows */
+}
+
+.customInput:active {
+  outline: none; /* Remove active outline */
+  border: none; /* No border changes */
+  box-shadow: none; /* Remove any shadows */
+}
+@media only screen and (max-width: 380px) {
+  /* Your CSS rules for screens 380px wide or smaller */
+  .letterContainer {
+    padding: 0px;
+  }
+}

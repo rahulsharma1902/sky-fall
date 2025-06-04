@@ -1,0 +1,57 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+
+.formInputLabel {
+  padding: 10px 0px;
+}
+
+.formInput {
+  background-color: var(--bgSurface03);
+  border: 1px solid var(--stroke01);
+  padding: 10px 15px;
+  color: var(--txtPrimary);
+}
+.formInput.errorInput {
+  border: 1px solid var(--bgErrorSecondary);
+  outline: 0px;
+}
+.formInput:focus {
+  border: 1px solid var(--txtSecondary);
+  outline: 0px;
+}
+.formInput:focus.errorInput {
+  border: 1px solid var(--bgErrorSecondary);
+  outline: 0px;
+}
+.formInput::placeholder {
+  color: var(--txtTertiary);
+}
+.btnContainer {
+}
+
+.submitBtn {
+  margin-top: 10px;
+  width: 100%;
+  background-color: var(--bgAccent);
+  border: 0px;
+  color: var(--txtBtn);
+  padding: 10px;
+  text-align: center;
+}
+
+.errorInputTxt {
+  color: var(--bgErrorSecondary);
+}
+.successContainer {
+}
+.checkContainer {
+  background-color: var(--bgAccent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 10px;
+  border-radius: 50%;
+}

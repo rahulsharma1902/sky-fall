@@ -1,0 +1,9 @@
+.solidBr {
+  border: 2px solid var(--bgSurface02);
+}
+
+@media only screen and (max-width: 765px) {
+  .solidBr {
+    border-width: 1px;
+  }
+}

@@ -1,0 +1,51 @@
+<svg width="274" height="311" viewBox="0 0 274 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M270 0V139.855C270 146.482 264.627 151.855 258 151.855H16C9.37258 151.855 4 157.227 4 163.855V310.5" stroke="#363636" stroke-width="8"/>
+<g clip-path="url(#clip0_315_11543)">
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 7.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 29.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 51.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 73.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 95.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 117.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 272.5 139.5)" fill="#20A558"/>
+</g>
+<g clip-path="url(#clip1_315_11543)">
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 164.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 186.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 208.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 230.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 252.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 274.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 7 296.5)" fill="#20A558"/>
+</g>
+<g clip-path="url(#clip2_315_11543)">
+<g clip-path="url(#clip3_315_11543)">
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 18.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 40.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 62.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 84.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 106.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 128.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 150.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 172.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 194.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 216.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 238.5 148.5)" fill="#20A558"/>
+<circle cx="3" cy="3" r="3" transform="matrix(-1 0 0 1 260.5 148.5)" fill="#20A558"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_315_11543">
+<rect width="6" height="138" fill="white" transform="translate(266.5 7.5)"/>
+</clipPath>
+<clipPath id="clip1_315_11543">
+<rect width="6" height="138" fill="white" transform="translate(1 164.5)"/>
+</clipPath>
+<clipPath id="clip2_315_11543">
+<rect width="251" height="6" fill="white" transform="translate(11 148.5)"/>
+</clipPath>
+<clipPath id="clip3_315_11543">
+<rect width="248" height="6" fill="white" transform="translate(12.5 148.5)"/>
+</clipPath>
+</defs>
+</svg>

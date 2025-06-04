@@ -1,0 +1,4 @@
+.layoutBg {
+  background-color: var(--bgSurface02);
+  backdrop-filter: blur(12px);
+}

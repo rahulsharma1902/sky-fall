@@ -1,0 +1,267 @@
+.disposalBg {
+  background-color: var(--bgSurface06);
+}
+.cardActiveBg {
+  background-color: var(--bgAccent);
+}
+.userCard {
+  padding: 5px 0px;
+}
+.cardHeight {
+  height: clamp(30px, 26.25px + 1.1719vw, 45px);
+}
+.cardCheckHeight {
+  --fluid-24-40: clamp(1.5rem, 1.2419rem + 1.2903vw, 2.5rem);
+  height: var(--fluid-24-40);
+  width: var(--fluid-24-40);
+}
+.sideBorderLeft {
+  border-left: 2px solid var(--bgAccent);
+  height: clamp(30px, 26.25px + 1.1719vw, 45px);
+}
+
+.customGridFive {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+}
+.bgGray {
+  background-color: var(--bgSurface02);
+}
+.cardHeader {
+  background-color: var(--bgSurface03);
+}
+.cardBody {
+  background-color: var(--bgSurface02);
+  --fluid-24-40: clamp(1.5rem, 1.2419rem + 1.2903vw, 2.5rem);
+  padding-left: var(--fluid-24-40);
+  padding-right: 4px;
+  --fluid-85-105: clamp(5.3125rem, 4.9899rem + 1.6129vw, 6.5625rem);
+  --fluid-85-130: clamp(5.3125rem, 4.5867rem + 3.629vw, 8.125rem);
+  min-height: var(--fluid-85-130);
+  max-height: var(--fluid-85-130);
+}
+
+.brandLogo {
+  background-color: var(--bgSurface04);
+  border: 1px solid var(--bgAccent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+.brandLogo:not(:last-child) {
+  margin-right: -5px;
+}
+
+.badges {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 2px 3px 2px 0px;
+}
+.badges:nth-child(1) {
+  background-color: var(--bginfo); /* #dc8f42 */
+}
+
+.badges:nth-child(2) {
+  background-color: var(--bgdanger); /* #8618ae */
+}
+
+.badges:nth-child(3) {
+  background-color: var(--bgwarning); /* #06a1a9 */
+}
+
+.badges:nth-child(4) {
+  background-color: var(--bgsuccess); /* #4254dc */
+}
+.smallCheck {
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+  background-color: var(--bgSurface05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .customGridFive {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .mobileChart {
+    column-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+  }
+}
+
+.chartContainer {
+  background-color: var(--bgSurface07);
+}
+
+.errorLines {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(261.75deg, #171717 6.33%, #e03333 93.67%);
+  margin: 1px 0px;
+}
+
+.checkLineContainer {
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  transform: translate(-50% - 50%);
+}
+.cardContainerArrow {
+  position: absolute;
+  top: 15.5px;
+  bottom: 50%;
+  right: -21px;
+  z-index: 4;
+}
+
+.myTable tr td {
+  border: 0.5px solid var(--stroke01);
+  border-right: 0px;
+  padding-left: 20px;
+}
+.myTable tr:first-child td {
+  border-top: 0; /* Removes the top border of the first row */
+}
+
+.myTable tr:last-child td {
+  border-bottom: 0; /* Removes the bottom border of the last row */
+}
+.flowHeaderError {
+  background-color: var(--bgErrorSecondary);
+}
+
+.gridPadding {
+  padding: 2.5rem 0px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1211px) {
+  .userCard {
+    padding: 0px !important;
+  }
+  .userCard .my-md-2 {
+    margin: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .gridPadding {
+    padding: 0px;
+  }
+  .cardContainer {
+    background-color: var(--bgSurface02);
+    width: 300px;
+  }
+  .cardContainerArrow {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    top: 107%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center;
+    z-index: 4;
+  }
+  .tabMobileCorner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    --fluid-10-20: clamp(0.625rem, 0.3409rem + 1.4205vw, 1.25rem);
+    width: var(--fluid-10-20);
+    display: inline-block !important;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .mobileFlexFill {
+    flex: 1 1 auto;
+  }
+  .cardHeader p {
+    padding-left: 12px !important;
+  }
+
+  .mobileChart {
+    --fluid-5-20: clamp(0.3125rem, -0.7589rem + 5.3571vw, 1.25rem);
+    column-gap: var(--fluid-5-20);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 15px;
+  }
+  .tabMobileCorner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    --fluid-10-20: clamp(0.625rem, 0.3409rem + 1.4205vw, 1.25rem);
+    width: var(--fluid-10-20);
+    display: inline-block !important;
+  }
+
+  .cardActiveBgHide {
+    display: none;
+  }
+  .sideBorderLeft {
+    border: 0px;
+    max-width: 60%;
+    position: relative;
+  }
+  .sideBorderLeft::after {
+    content: ""; /* Required to display the pseudo-element */
+    position: absolute;
+    top: 0;
+    right: 10%;
+    background-image: url("/images/icon/headingCorner.svg");
+  }
+  .sideBorderLeft p {
+    font-weight: 200;
+  }
+  .cardContainerArrow {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    top: 107%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center;
+    z-index: 4;
+  }
+  .bgGray {
+    border: 0.5px solid var(--stroke01);
+    height: 82px;
+    --fluid-120-125: clamp(7.5rem, 7.1429rem + 1.7857vw, 7.8125rem);
+    width: var(--fluid-120-125);
+    /* width: 125px; */
+  }
+  .cardActiveBg img {
+    width: 10px;
+    height: 9px;
+  }
+  .cardContainer {
+    /* background-color: var(--bgSurface02); */
+    width: 100%;
+
+    grid-column: 1 / -1;
+  }
+  .cardBody {
+    background-color: var(--bgSurface02);
+    width: 100%;
+    /* --fluid-160-215: clamp(10rem, 6.0714rem + 19.6429vw, 13.4375rem);
+    width: var(--fluid-160-215); */
+  }
+
+  .userCard {
+    padding: 3px 0px;
+  }
+  .gridPadding {
+    padding: 0px;
+  }
+}

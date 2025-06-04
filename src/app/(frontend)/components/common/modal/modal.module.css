@@ -1,0 +1,10 @@
+.customModalContent {
+  background-color: var(--bgSurface02);
+  border: 1px solid var(--stroke01);
+  border-radius: 0px;
+  min-height: 470px;
+}
+.btnCloseColor {
+  background-color: transparent;
+  border: 0px;
+}

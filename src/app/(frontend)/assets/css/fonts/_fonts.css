@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter-Italic.woff2") format("woff2"),
+    url("../../fonts/Inter-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../fonts/JetBrainsMono-Italic.woff") format("woff2"),
+    url("../../fonts/JetBrainsMono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+    url("../../fonts/JetBrainsMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body,
+p,
+a {
+  font-family: "Inter";
+  line-height: 1.6;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "JetBrains Mono";
+  font-weight: 400;
+  line-height: 1.6;
+}
+.l-h-1-1 {
+  line-height: 1.3;
+}
+.f-l-s-1 {
+  --fluid-2-8: clamp(0.125rem, 0.0282rem + 0.4839vw, 0.5rem);
+  letter-spacing: var(--fluid-2-8);
+}
+.f-l-s {
+  --fluid-3-10: clamp(0.1875rem, 0.0746rem + 0.5645vw, 0.625rem);
+  letter-spacing: var(--fluid-3-10);
+}
+.ff-i {
+  font-family: "Inter";
+}
+.ff-j {
+  font-family: "JetBrains Mono";
+}
+
+.f-10 {
+  font-size: clamp(0.4375rem, 0.3899rem + 0.2381vw, 0.625rem);
+}
+.f-12 {
+  font-size: clamp(9px, 0.3581rem + 0.3968vw, 0.75rem);
+}
+.f-14 {
+  font-size: clamp(10px, 0.326rem + 0.549vw, 0.875rem);
+}
+.f-16 {
+  font-size: clamp(12px, 0.7647rem + 0.2353vw, 1rem);
+}
+.f-20 {
+  --fluid-12-20: clamp(0.75rem, 0.621rem + 0.6452vw, 1.25rem);
+  font-size: var(--fluid-12-20);
+}
+.f-24 {
+  font-size: clamp(0.75rem, 0.5588rem + 0.9412vw, 1.5rem);
+}
+.f-32 {
+  /* --fluid-14-32: clamp(0.875rem, 0.5847rem + 1.4516vw, 2rem); */
+  font-size: clamp(0.875rem, 0.5847rem + 1.4516vw, 2rem);
+}
+.f-40 {
+  font-size: clamp(1.125rem, 0.7745rem + 1.7255vw, 2.5rem);
+}
+.f-55-25 {
+  font-size: clamp(1.25rem, 0.6855rem + 2.8226vw, 3.4375rem);
+}
+.f-64 {
+  font-size: clamp(1.25rem, 0.549rem + 3.451vw, 4rem);
+}
+.f-c-p {
+  color: var(--txtPrimary);
+}
+.f-c-p2 {
+  color: var(--txtPrimary02);
+}
+.f-c-s {
+  color: var(--txtSecondary);
+}
+.f-c-t {
+  color: var(--txtTertiary);
+}
+.f-c-a {
+  color: var(--bgAccent);
+}
+
+.f-w-100 {
+  font-weight: 100 !important;
+}
+.f-w-200 {
+  font-weight: 200 !important;
+}
+.f-w-300 {
+  font-weight: 300 !important;
+}
+.f-w-400 {
+  font-weight: 400 !important;
+}
+.f-w-500 {
+  font-weight: 500 !important;
+}
+.f-w-600 {
+  font-weight: 600 !important;
+}
+.f-w-700 {
+  font-weight: 700 !important;
+}
+.f-w-800 {
+  font-weight: 800 !important;
+}
+.f-w-900 {
+  font-weight: 900 !important;
+}
+.f-w-1000 {
+  font-weight: 1000 !important;
+}
+
+p {
+  margin: 0;
+}
+
+.heroFont {
+  --fluid-3-23: clamp(0.1875rem, 0.0089rem + 0.8929vw, 1.4375rem);
+  font-size: var(--fluid-3-23);
+}

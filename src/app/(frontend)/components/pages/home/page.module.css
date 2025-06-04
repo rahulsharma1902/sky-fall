@@ -1,0 +1,9 @@
+@media only screen and (max-width: 380px) {
+  /* Your CSS rules for screens 380px wide or smaller */
+  .worldFirstSection h1 {
+    letter-spacing: -2px;
+  }
+  .eliminateSection h2 {
+    font-weight: 200;
+  }
+}

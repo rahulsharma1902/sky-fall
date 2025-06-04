@@ -1,0 +1,21 @@
+<svg width="602" height="380" viewBox="0 0 602 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Animated Shimmer Gradient Definition -->
+  <defs>
+    <linearGradient id="shimmer-gradient" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(22, 78, 58, 0.4)" />
+      <stop offset="50%" stop-color="rgba(8, 79, 53, 1)" />
+      <stop offset="100%" stop-color="rgba(32, 160, 114, 1)" />
+    
+      <!-- Adding animation to the gradient -->
+      <animate attributeName="x1" values="0%;100%" dur="2s" keyTimes="0;1" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;200%" dur="2s" keyTimes="0;1" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rectangles with Shimmer Effect -->
+  <rect x="147.5" y="296.5" width="115" height="31" fill="url(#shimmer-gradient)" />
+  <rect x="329.5" y="0.5" width="57" height="31" fill="url(#shimmer-gradient)" />
+  <rect x="65.5" y="53.5" width="120" height="31" fill="url(#shimmer-gradient)" />
+  <rect x="368.5" y="249.5" width="91" height="31" fill="url(#shimmer-gradient)" />
+  <rect x="363.5" y="348.5" width="91" height="31" fill="url(#shimmer-gradient)" />
+</svg>
