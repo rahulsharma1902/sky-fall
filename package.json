@@ -16,7 +16,7 @@
     "generate:types": "NODE_OPTIONS=--no-deprecation payload generate:types",
     "payload": "NODE_OPTIONS=--no-deprecation payload",
     "build:server": "tsc --project tsconfig.server.json",
-    "postinstall": "" 
+    "postinstall": ""
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
